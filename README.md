@@ -1,4 +1,4 @@
-# Get next line <img align="left" src="https://github.com/susikohmelo/FdF/blob/main/readme_files/score.png" height="120"/>
+# Get next line <img align="left" src="https://github.com/susikohmelo/getnextline/blob/main/readme_files/score.png" height="120"/>
 A function to read one (or multiple) files at once with a buffer of any given size - no 1 character at a time shenanigans!
 
 BUFFER_SIZE characters are read at once and stored into a buffer until at least one line of text has been read. Any excess characters past the newline are stored into a static buffer that can't leak, for the next time get_next_line() is called.
